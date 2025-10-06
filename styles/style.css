@@ -1,7 +1,5 @@
 html {
-  /* px means "pixels". The base font size is now 10 pixels high */
   font-size: 10px;
-  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
     font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -10,6 +8,33 @@ h1 {
   font-size: 60px;
   text-align: center;
 }
+
+nav {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  background-color: #555555;
+  padding: 0.5em;
+}
+
+nav ul {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+
+  color: #fff;
+font-size: 16px;
+  text-decoration: none;
+  padding: 0.5em 1em;
+}
+
 
 p,
 li {
@@ -30,8 +55,24 @@ html {
   padding: 20px 0;
   color: #00539f;
   text-shadow: 3px 3px 1px black;
+}h2 {
+font-size: 18px;
+  margin: 0;
+  padding: 5px 0;
+  color: #00539f;
+  text-shadow: 1px 1px .5px black;
+}h3 {
+font-size: 18px;
+  margin: 0;
+  padding: 5px 0;
+  color: #00539f;
+  text-shadow: 1px 1px .5px black;
 }img {
   display: block;
   margin: 0 auto;
   max-width: 100%;
+}#LegoEnger {
+  display: block;
+  margin: 0 auto;
+  max-width: 65%;
 }
