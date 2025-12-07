@@ -78,6 +78,8 @@ font-size: 18px;
   max-width: 65%;
 }hr {
   width: 100%;
+  border: none;
+  background-color:#00539f;
   height: 3px;
-  padding: 10px;
+  margin: 10px 0;
 }
