@@ -76,4 +76,7 @@ font-size: 18px;
   display: block;
   margin: 0 auto;
   max-width: 65%;
+}hr {
+  width: 100%;
+  height: 3px
 }
